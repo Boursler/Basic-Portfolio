@@ -6,7 +6,10 @@
         },
         "type": "shell",
         "reveal": "never",
-        "args": ["${file}"]
+        "args": [
+            "${file}"
+        ],
+        "problemMatchers": []
     }
         
     
