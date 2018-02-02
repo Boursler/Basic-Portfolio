@@ -3,25 +3,26 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Contact Me</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<link rel="stylesheet" type="text/css"href="assets/css/reset.css"/> 
 	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 	
 </head>
 <body>
-	<div class="container">
-	<header>
-		
-		<nav>
-			<h1>Briana Oursler</h1>
-			<a href="index.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
-		    </nav>
-	</header>
-	
+	<div id="contactMeContainer">
+			<header class="clearfix">
+				<div id="headerDiv">
+					<h1>Briana Oursler</h1>
+					<nav>
+					    <a class="navbar" href="index.html">About</a>
+					    <a class="navbar" href="portfolio.html"> Portfolio</a>
+					    <a class="navbar"  href="contact.html">Contact</a>
+					</nav>
+				</div>
+			</header>
+	 <div id="contentDiv" class="clearfix">
 	<section id = "ContactForm">
-			<h2>Contact Me</h2>
+			<h2 id="contactMeHeader">Contact Me</h2>
 		<form>
 			Name
 			<input type="text"name"name"</input>
@@ -29,10 +30,28 @@
 			<input type="text"name="email"></input>
 			Message
 			<textarea name="message"rows="10"cols="30"></textarea>
-			<input type="submit"></input>
+			<input id="submitbutton" type="submit"></input>
 	
 		</form>
 	</section>
-</div>
+	
+	<aside id="ConnectWithMe">
+			<h2 id="ConnectWithMeHeader">Connect with Me</h2>
+		       <a href="https://github.com/Boursler"target="_blank"> 
+			   <img class="connectImage" src="assets/images/if_github_square_black_107109.png" alt="github icon">
+			</a>
+			<a href="https://stackoverflow.com/users/9137575/boursler"target="_blank">
+			    <img class="connectImage"  src="assets/images/if_overflow_386674.png" alt="stack overflow icon">
+			</a>
+			<a href="https://www.linkedin.com/in/briana-oursler-30511276/"target="_blank">
+			    <img class="connectImage" src="assets/images/if_square-linkedin_317725.png" alt="linked in icon">
+			 </a>
+			</aside>
+		</div>
+	</div>
+		<footer>
+			<h3>&copy;Copyright 2018 Briana Oursler</h3>
+		 </footer>
+
 </body>
 </html>
